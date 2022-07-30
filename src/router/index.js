@@ -20,17 +20,18 @@ const routes = [
                     title: '欢迎体验Vue3全栈课程'
                 },
                 component: WelcomeViews
+            },
+            {
+                name: 'login',
+                path: '/login',
+                meta: {
+                    title: '登录'
+                },
+                component: LoginViews
             }
         ]
     },
-    {
-        name: 'login',
-        path: '/login',
-        meta: {
-            title: '登录'
-        },
-        component: LoginViews
-    }
+    
 ]
 
 const router = createRouter({

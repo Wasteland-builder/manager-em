@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'app'
+  name: 'app',
 }
 </script>
 
@@ -8,5 +8,7 @@ export default {
   <router-view></router-view>
 </template>
 
-<style scoped>
+<style>
+@import './assets/style/reset.css';
+@import './assets/style/index.scss';
 </style>
